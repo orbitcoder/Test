@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#5E2E91</color>
+    <color name="mb_gray">#ffdedede</color>
+    <color name="mb_blue">#ff0099cc</color>
+    <color name="mb_blue_dark">#ff00719b</color>
+    <color name="mb_spring_green">#14FFB5</color>
+    <color name="hint_color">#848484</color>
+    <color name="midgrey">#40808080</color>
+    <color name="black">#000000</color>
+    <color name="grey">#C4C7CF</color>
+</resources>

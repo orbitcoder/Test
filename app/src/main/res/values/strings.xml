@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Boxme</string>
+    <string name="signup">SIGNUP</string>
+    <string name="transition_signup">transition_signup</string>
+    <string name="submit_info_bt_text">DONE</string>
+    <string name="username">USER NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+</resources>

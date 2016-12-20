@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BoxMe" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/primary</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="MaterialAnimations" parent="@style/BoxMe">
+        <item name="android:windowEnterTransition">@transition/changebounds</item>
+        <item name="android:windowExitTransition">@transition/changebounds</item>
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">@transition/changebounds</item>
+        <item name="android:windowSharedElementExitTransition">@transition/changebounds</item>
+        ...
+    </style>   <!-- specify enter and exit transitions -->
+
+
+</resources>
